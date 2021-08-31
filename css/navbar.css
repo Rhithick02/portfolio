@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.firstpage {
+    background: linear-gradient(rgba(4, 9, 20, 0.5), rgba(54, 9, 30, 0.8));
+    background-size: cover;
+    height: 100vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    padding: 2% 5%;
+}
+
+.nav-links ul {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+
+.nav-links ul li {
+    list-style: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-links ul li::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: rgb(80, 252, 154);
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+    transition: 0.5s;
+}
