@@ -1,3 +1,12 @@
+body {
+    background: linear-gradient(rgba(4, 9, 20, 0.5), rgba(54, 9, 30, 0.8));
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
 .interests {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -53,6 +62,12 @@
     align-items: center;
 }
 
+.int .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .int > div {
     width: 100%;
     height: 100%;
