@@ -27,17 +27,33 @@ p {
     margin-bottom: 20px;
 }
 
-.contact {
+.myself, .involvement {
     flex: 1;
+}
+
+.contact {
+    /* flex: 1; */
+    /* background: rgba(127, 255, 212, 0.562); */
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.contact > a {
-    padding: 20px;
+.name {
+    margin-bottom: 18px;
+    color: white;
 }
 
-.contact > a:hover {
+.contact a {
+    padding: 10px;
+}
+
+.contact a:hover {
     background: rgba(255, 115, 0, 0.932);
+}
+
+h1 {
+    margin-bottom: 10px;
 }
